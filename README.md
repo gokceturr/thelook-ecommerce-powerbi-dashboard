@@ -1,45 +1,49 @@
-# TheLook E-commerce Sales Dashboard
+📊 TheLook E-commerce Sales Dashboard
 
-This Power BI dashboard analyzes e-commerce sales performance using the **TheLook** dataset (Google BigQuery public retail data).  
-The goal of the dashboard is to understand category trends, yearly growth, product-level insights, and overall revenue performance.
+Bu proje, Google BigQuery’nin herkese açık TheLook e-commerce veri seti kullanılarak oluşturulmuş kapsamlı bir Power BI analiz ve görselleştirme projesidir.
+Amaç; kategori bazlı satış performansını, yıl-ay-çeyrek trendlerini, ürün bazında gelir katkılarını ve sezon bazlı davranışları ortaya çıkarmaktır.
 
----
+🛠️ Tools & Technologies
 
-## 🔧 Tools Used
-- Power BI
-- DAX Measures
-- Data modeling (Star Schema)
-- TheLook e-commerce dataset (Google BigQuery)
+Power BI
 
----
+DAX Measures
 
-## 📊 Key Insights
+Star Schema Data Modeling
 
-### 🛒 1. Overall Sales Performance
-- Total revenue, number of product categories, and average product price displayed through KPI cards  
-- Revenue evolution over time (2019–2025)
+Google BigQuery – TheLook Dataset
 
-### 📦 2. Category-Level Insights
-- Total revenue and average product price by category  
-- Identification of top-performing and underperforming categories  
+📈 Key Insights
+1️⃣ Overall Sales Performance
 
-### 📈 3. Yearly & Monthly Trends
-- Year-over-year growth  
-- Category revenue distribution by year  
-- Seasonality patterns across months and quarters  
+Toplam gelir, kategori sayısı, ortalama ürün fiyatı KPI kartlarında sunuldu.
 
----
+2019–2025 yılları arasında gelir artış trendi incelendi.
 
-## 📂 Project Structure
-- `visuals/`: Dashboard screenshots  
-- `model/data_model.png`: Power BI data model  
-- `powerbi/`: Optional – Power BI source file  
+2️⃣ Category-Level Insights
 
----
+Kategorilere göre toplam gelir ve ortalama ürün fiyatı analiz edildi.
 
-## 📝 Summary
-This interactive dashboard enables a clear understanding of product category performance, revenue growth patterns, and pricing dynamics.  
-It can support decision-making for category management, pricing strategy, product expansion, and forecasting future revenue trends.
+En yüksek ve en düşük gelir katkısı yapan kategoriler belirlendi.
 
----
+3️⃣ Product-Level Insights (Pareto Analysis)
 
+Ürünlerin gelir katkısı Pareto ilkesiyle incelendi.
+
+En çok gelir getiren ilk %20 ürünün toplam gelir üzerindeki etkisi ortaya çıkarıldı.
+
+4️⃣ Seasonal & Monthly Trends
+
+Yıl × Mevsim (Heatmap) ile mevsimsel satın alma davranışları analiz edildi.
+
+Sezonlara göre toplam gelir dağılımı çıkarıldı.
+
+Çeyrek, ay ve gün bazlı satış yoğunluğu araştırıldı.
+
+5️⃣ Behavioral Insights
+
+Hafta içi vs. hafta sonu gelir analizi
+
+Cinsiyete göre satış dağılımı
+
+Ortalama sepet tutarı
