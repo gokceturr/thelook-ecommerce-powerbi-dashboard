@@ -1,77 +1,83 @@
-📊 TheLook E-commerce Sales Dashboard
+# 📊 TheLook E-commerce Sales Dashboard
 
-Bu proje, Google BigQuery’nin herkese açık TheLook e-commerce veri seti kullanılarak oluşturulmuş kapsamlı bir Power BI analiz ve görselleştirme projesidir.
-Amaç; kategori bazlı satış performansını, yıl-ay-çeyrek trendlerini, ürün bazında gelir katkılarını ve sezon bazlı davranışları ortaya çıkarmaktır.
+Bu proje, Google BigQuery’nin herkese açık **TheLook e-commerce** veri seti kullanılarak oluşturulmuş kapsamlı bir **Power BI analiz ve görselleştirme çalışmasıdır**.  
+Amaç; kategori bazlı satış performansını, yıl–ay–çeyrek trendlerini, ürün bazında gelir katkılarını ve sezon bazlı tüketici davranışlarını ortaya çıkarmaktır.
 
-🛠️ Tools & Technologies
+---
 
-Power BI
+## 🛠️ Tools & Technologies
 
-DAX Measures
+- Power BI  
+- DAX Measures  
+- Star Schema Data Modeling  
+- Google BigQuery – TheLook Dataset  
 
-Star Schema Data Modeling
+---
 
-Google BigQuery – TheLook Dataset
+## 📈 Key Insights
 
-📈 Key Insights
-1️⃣ Overall Sales Performance
+### 1️⃣ Overall Sales Performance
 
-Toplam gelir, kategori sayısı, ortalama ürün fiyatı KPI kartlarında sunuldu.
+- Toplam gelir, kategori sayısı ve ortalama ürün fiyatı KPI kartları ile sunuldu.  
+- 2019–2025 yılları arasında yıllık gelir trendi analiz edildi.
 
-2019–2025 yılları arasında gelir artış trendi incelendi.
+---
 
-2️⃣ Category-Level Insights
+### 2️⃣ Category-Level Insights
 
-Kategorilere göre toplam gelir ve ortalama ürün fiyatı analiz edildi.
+- Kategorilere göre toplam gelir ve ortalama ürün fiyatı incelendi.  
+- En yüksek ve en düşük katkı sağlayan kategoriler belirlendi.
 
-En yüksek ve en düşük gelir katkısı yapan kategoriler belirlendi.
+---
 
-3️⃣ Product-Level Insights (Pareto Analysis)
+### 3️⃣ Product-Level Insights (Pareto Analysis)
 
-Ürünlerin gelir katkısı Pareto ilkesiyle incelendi.
+- Ürün bazlı gelir katkısı Pareto ilkesiyle değerlendirildi.  
+- İlk %20 ürünün toplam gelir üzerindeki etkisi hesaplandı.
 
-En çok gelir getiren ilk %20 ürünün toplam gelir üzerindeki etkisi ortaya çıkarıldı.
+---
 
-4️⃣ Seasonal & Monthly Trends
+### 4️⃣ Seasonal & Monthly Trends
 
-Yıl × Mevsim (Heatmap) ile mevsimsel satın alma davranışları analiz edildi.
+- Yıl × Mevsim (Heatmap) ile sezonluk satın alma davranışları analiz edildi.  
+- Çeyrek, ay ve gün bazlı satış dağılımları çıkarıldı.  
+- Mevsimlere göre gelir yüzdeleri karşılaştırıldı.
 
-Sezonlara göre toplam gelir dağılımı çıkarıldı.
+---
 
-Çeyrek, ay ve gün bazlı satış yoğunluğu araştırıldı.
+### 5️⃣ Behavioral Insights
 
-5️⃣ Behavioral Insights
+- Hafta içi ve hafta sonu satış farkları incelendi.  
+- Cinsiyete göre toplam gelir dağılımı analiz edildi.  
+- Ortalama sepet tutarı hesaplandı.
 
-Hafta içi vs. hafta sonu gelir analizi
+---
 
-Cinsiyete göre satış dağılımı
+## 🎯 Business Recommendations
 
-Ortalama sepet tutarı
+1. **Jeans, Outerwear & Coats** gibi yüksek satış getiren kategorilere odaklanarak stok ve pazarlama stratejileri güçlendirilmelidir.  
+2. **Yaz sezonunda** artan talep için kampanyalar ve promosyonlar yoğunlaştırılmalıdır.  
+3. Hafta içi satış yoğunluğu hafta sonuna da yayılacak şekilde **özel hafta sonu kampanyaları** tasarlanmalıdır.  
+4. Pareto analizinde öne çıkan ürünler için **reklam yatırımı artırılmalı**, düşük katkılı ürünler gözden geçirilmelidir.
 
-🎯 Business Recommendations
+---
 
-Bu analiz sonucunda elde edilen temel iş kararları:
+## 📁 Dataset
 
-Yüksek satış getiren kategorilere (Jeans, Outerwear & Coats) odaklanılarak stok ve pazarlama faaliyetleri güçlendirilmeli.
-
-Yaz sezonunda artan talep için kampanya ve promosyonlar yoğunlaştırılmalı.
-
-Hafta içi yoğunluğun hafta sonuna yayılması için özel hafta sonu kampanyaları planlanmalı.
-
-Pareto analizinde öne çıkan ürünler için reklam yatırımı artırılmalı, düşük katkılı ürünler gözden geçirilmeli.
-
-📎 Dataset
-
-TheLook e-commerce public dataset (BigQuery Public Data)
+**TheLook e-commerce public dataset (BigQuery Public Data):**  
 https://console.cloud.google.com/marketplace/details/bigquery-public-data/thelook-ecommerce
 
-📌 About the Project
+---
 
-Bu proje, veri analitiği becerilerimi geliştirmek amacıyla Power BI üzerinde kapsamlı bir gösterge paneli hazırladığım bir çalışmadır.
+## 📌 About the Project
+
+Bu proje, veri analitiği becerilerimi geliştirmek amacıyla Power BI üzerinde oluşturduğum kapsamlı bir gösterge paneli çalışmasıdır.  
 Görseller, DAX ölçüleri ve modelleme tamamen bana/grubumuza aittir.
 
-🧑‍💻 Author
+---
 
-Gökçe Tür
-Data Analyst • SQL • BigQuery • Power BI • Looker Studio
-GitHub: gokceturr
+## 🧑‍💻 Author
+
+**Gökçe Tür**  
+_Data Analyst • SQL • BigQuery • Power BI • Looker Studio_  
+**GitHub:** gokceturr
