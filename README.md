@@ -1,4 +1,4 @@
-# 📊 TheLook E-commerce Sales Dashboard
+# 📊 TheLook E-commerce Power BI Dashboard
 
 Bu proje, Google BigQuery’nin herkese açık **TheLook e-commerce** veri seti kullanılarak oluşturulmuş kapsamlı bir **Power BI analiz ve görselleştirme çalışmasıdır**.  
 Amaç; kategori bazlı satış performansını, yıl–ay–çeyrek trendlerini, ürün bazında gelir katkılarını ve sezon bazlı tüketici davranışlarını ortaya çıkarmaktır.
