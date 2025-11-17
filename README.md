@@ -47,3 +47,31 @@ Hafta içi vs. hafta sonu gelir analizi
 Cinsiyete göre satış dağılımı
 
 Ortalama sepet tutarı
+
+🎯 Business Recommendations
+
+Bu analiz sonucunda elde edilen temel iş kararları:
+
+Yüksek satış getiren kategorilere (Jeans, Outerwear & Coats) odaklanılarak stok ve pazarlama faaliyetleri güçlendirilmeli.
+
+Yaz sezonunda artan talep için kampanya ve promosyonlar yoğunlaştırılmalı.
+
+Hafta içi yoğunluğun hafta sonuna yayılması için özel hafta sonu kampanyaları planlanmalı.
+
+Pareto analizinde öne çıkan ürünler için reklam yatırımı artırılmalı, düşük katkılı ürünler gözden geçirilmeli.
+
+📎 Dataset
+
+TheLook e-commerce public dataset (BigQuery Public Data)
+https://console.cloud.google.com/marketplace/details/bigquery-public-data/thelook-ecommerce
+
+📌 About the Project
+
+Bu proje, veri analitiği becerilerimi geliştirmek amacıyla Power BI üzerinde kapsamlı bir gösterge paneli hazırladığım bir çalışmadır.
+Görseller, DAX ölçüleri ve modelleme tamamen bana/grubumuza aittir.
+
+🧑‍💻 Author
+
+Gökçe Tür
+Data Analyst • SQL • BigQuery • Power BI • Looker Studio
+GitHub: gokceturr
